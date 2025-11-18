@@ -1,0 +1,38 @@
+{
+  "name": "react-analytics-kit",
+  "private": true,
+  "version": "0.0.1",
+  "description": "Instrumentation primitives for measuring hydration, interaction, and performance signals in modern React apps.",
+  "license": "MIT",
+  "scripts": {
+    "build": "npm run build -w @react-analytics-kit/core",
+    "typecheck": "tsc -b",
+    "lint": "eslint \"{packages,examples}/**/*.{ts,tsx}\" --max-warnings=0 || true",
+    "test": "echo \"Add tests with vitest or jest\" && exit 0"
+  },
+  "workspaces": [
+    "packages/*",
+    "examples/*"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yksanjo/react-analytics-kit-.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yksanjo/react-analytics-kit-/issues"
+  },
+  "homepage": "https://github.com/yksanjo/react-analytics-kit-#readme",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^8.9.0",
+    "@typescript-eslint/parser": "^8.9.0",
+    "@types/node": "^20.17.1",
+    "@types/react": "^18.2.74",
+    "@types/react-dom": "^18.2.23",
+    "eslint": "^9.11.1",
+    "eslint-config-prettier": "^9.1.0",
+    "prettier": "^3.3.2",
+    "tslib": "^2.7.0",
+    "tsup": "^8.2.4",
+    "typescript": "^5.6.2"
+  }
+}
