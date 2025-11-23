@@ -1,5 +1,9 @@
 # React Analytics Kit
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-yellow.svg)](https://www.javascript.com/) [![TypeScript](https://img.shields.io/badge/TypeScript-5.0+-blue.svg)](https://www.typescriptlang.org/) [![GitHub stars](https://img.shields.io/github/stars/yksanjo/react-analytics-kit-?style=social)](https://github.com/yksanjo/react-analytics-kit-/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/yksanjo/react-analytics-kit-.svg)](https://github.com/yksanjo/react-analytics-kit-/network/members) [![GitHub issues](https://img.shields.io/github/issues/yksanjo/react-analytics-kit-.svg)](https://github.com/yksanjo/react-analytics-kit-/issues) [![Last commit](https://img.shields.io/github/last-commit/yksanjo/react-analytics-kit-.svg)](https://github.com/yksanjo/react-analytics-kit-/commits/main)
+
+
 Lightweight instrumentation primitives that help React teams observe hydration cost, interaction latency, and layout stability without wiring a full observability platform. Inspired by the gaps we experienced while building React apps and following the `facebook/react` community’s push toward streaming + server components.
 
 > Status: 🚧 experimental alpha. Expect the API to evolve quickly.
